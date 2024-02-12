@@ -13,7 +13,7 @@ body {
     "header header"
     "nav search"
     "nav main"
-    "footer footer";
+    "footer main";
     grid-template-columns: 9em 1fr;
     width: 100%;
 }
@@ -66,7 +66,6 @@ span {
     width: 50%;
     text-align: end;
     margin-right: 30px;
-    
 }
 
 main {
@@ -123,7 +122,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 10% 80% 10%;
+        grid-template-rows: 60px 60px 1fr 60px;
         grid-template-areas:
         "header"
         "search"
@@ -153,6 +152,7 @@ footer {
     .search {
         width: 100%;
         background-color: rgb(172, 147, 198);
+        margin-top: -12px;
     }
 
     nav {
